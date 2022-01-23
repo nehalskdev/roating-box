@@ -14,15 +14,18 @@ body {
   align-items: center;
 }
 div {
-  height: 10vh;
-  width: 75vw;
+  height: 50%;
+  width: 50%;
 
-  padding: 100px 50px;
+  display: grid;
+  place-items: center;
 
-  font-size: 8vh;
+  color: brown;
+  font-size: 3rem;
   font-family: serif;
   text-align: center;
   text-transform: uppercase;
+  word-break: break-all;
 
   background-color: ivory;
 
@@ -43,5 +46,11 @@ div {
   }
   100% {
     transform: scaleX(100%);
+  }
+}
+
+@media (max-width: 350px) {
+  div {
+    font-size: 1rem;
   }
 }
