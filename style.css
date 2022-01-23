@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+
+  background-color: grey;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div{
+  height: 200px;
+  width: 800px;
+  
+  font-size: 70px;
+  font-family: serif;
+  text-align: center;
+  text-transform: uppercase;
+
+  padding: 100px 50px;
+
+  background-color: ivory;
+
+  border: 1px solid black;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 10px 10px 0 0 blanchedalmond;
+  
+  animation: roating 5s infinite;
+}
+@keyframes roating {
+  0% {
+      background-color: rgb(12, 12, 11);
+      transform: scaleX(5%);
+  }
+  25% {
+      opacity: .2;
+      transform: scaleX(50%);
+  100% {
+      
+    transform: scaleX(100%);
+  }
+}
