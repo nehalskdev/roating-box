@@ -14,12 +14,12 @@ body {
   align-items: center;
 }
 div {
-  height: 200px;
-  width: 800px;
+  height: 10vh;
+  width: 75vw;
 
   padding: 100px 50px;
 
-  font-size: 3rem;
+  font-size: 8vh;
   font-family: serif;
   text-align: center;
   text-transform: uppercase;
